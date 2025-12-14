@@ -1,4 +1,14 @@
-# Food Finder
+# 🍽️ Food Finder
+
+ <p align="center">
+   Smart restaurant discovery web app built with Flask.
+ </p>
+
+ <p align="center">
+   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" alt="Python">
+   <img src="https://img.shields.io/badge/Flask-Web%20App-green?logo=flask" alt="Flask">
+   <img src="https://img.shields.io/badge/Database-CSV%20%7C%20MySQL-orange" alt="Database">
+ </p>
 
 Food Finder is a Flask-based web application that helps you discover restaurants and make better dining decisions.
 
@@ -6,7 +16,23 @@ You can explore restaurants by rating, city, and cost, view results on a map, do
 
 ---
 
-## Features
+## 📚 Table of Contents
+
+- [✨ Features](#features)
+- [🧱 Tech Stack](#tech-stack)
+- [🚀 Getting Started](#getting-started)
+- [⚙️ Configuration](#configuration)
+- [💾 Data Storage Options](#data-storage-options)
+- [🏃‍♂️ Running the App Locally](#running-the-app-locally)
+- [🔌 API Usage](#api-usage)
+- [📄 PDF Reports](#pdf-reports)
+- [❓ Contact, Help & Privacy](#contact-help--privacy)
+- [🛠️ Development Notes](#development-notes)
+- [📞 Support](#support)
+
+---
+
+## ✨ Features
 
 - **Restaurant discovery**
   - Filter by minimum rating, city, and maximum cost
@@ -40,7 +66,7 @@ You can explore restaurants by rating, city, and cost, view results on a map, do
 
 ---
 
-## Tech Stack
+## 🧱 Tech Stack
 
 - **Backend**: Python, Flask
 - **Data & ML**: pandas, scikit-learn (StandardScaler, PCA)
@@ -55,7 +81,7 @@ Key entry point: `app.py`.
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### 1. Clone the repository
 
@@ -85,7 +111,7 @@ If you plan to use MySQL as the data source, make sure MySQL Server is installed
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 All configuration lives in `config.py`.
 
@@ -126,7 +152,7 @@ See `DATA_STORAGE.md` for additional security and storage details.
 
 ---
 
-## Data Storage Options
+## 💾 Data Storage Options
 
 Details are explained in `DATA_STORAGE.md`. Summary:
 
@@ -146,7 +172,7 @@ Details are explained in `DATA_STORAGE.md`. Summary:
 
 ---
 
-## Running the App Locally
+## 🏃‍♂️ Running the App Locally
 
 From the project directory:
 
@@ -173,7 +199,7 @@ Useful routes:
 
 ---
 
-## API Usage
+## 🔌 API Usage
 
 ### Endpoint
 
@@ -214,7 +240,7 @@ Example JSON response (structure):
 
 ---
 
-## PDF Reports
+## 📄 PDF Reports
 
 You can download a PDF report of the current filtered results via:
 
@@ -241,7 +267,7 @@ The generated report includes:
 
 ---
 
-## Contact, Help & Privacy
+## ❓ Contact, Help & Privacy
 
 - `/contact` – send a message to the configured email address (requires valid email config)
 - `/help` – basic help/FAQ
@@ -249,7 +275,7 @@ The generated report includes:
 
 ---
 
-## Development Notes
+## 🛠️ Development Notes
 
 - Core application logic: `app.py`
 - Templates: `templates/` (HTML/Jinja2)
